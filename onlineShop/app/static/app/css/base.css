@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    color:white;
+}
+
+a:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.add-container{
+
+    border: 5px solid #0eb87d;
+    margin: 50px;
+    border-radius: 24px;
+    padding: 20px;
+}
+
+
+.delete-item-btn {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+.place-order-btn,.view-order-history-btn{
+    color: black;
+    border: 5px solid #0a7d5c;
+    border-radius: 24px;
+    padding: 5px;
+    font-size: 24px;
+
+}
